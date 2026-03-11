@@ -1,40 +1,56 @@
 # Story Foundry
 
-Story Foundry is a full-stack MVP for an AI-assisted story writing platform with controllable narrative style. It generates structured four-part stories, supports iterative refinement prompts, keeps version history, and provides a browser-based editing workspace.
+Story Foundry is an AI-based story writing platform that helps users generate, edit, and refine structured narratives while controlling genre, tone, writing style, and pacing. The project combines a FastAPI backend with a professional editorial dashboard designed to feel like a real creative writing workspace rather than a simple text generator.
 
-## What is implemented
+## Overview
 
-- Prompt-driven story generation with genre, tone, writing style, and target length controls
-- Structured output split into introduction, conflict development, climax, and resolution
-- Iterative refinement that creates a new version from the currently viewed draft
-- Manual editing with version notes and persistent history
-- Story timeline view and story library
-- JSON-backed persistence so drafts survive restarts
+The platform is built for writers, students, and content creators who want more control than a generic prompt-to-text tool provides. Instead of producing flat output, Story Foundry organizes each draft into a narrative structure, supports iterative revision, preserves version history, and exposes visual tools for understanding how the story evolves.
 
-## Frontend dashboard theme
+## Core Features
 
-The interface is designed as a professional editorial dashboard rather than a generic AI generation page. The frontend uses a three-zone workflow:
+- Prompt-based story generation with configurable genre, tone, writing style, and target length
+- Structured narrative output across introduction, conflict development, climax, and resolution
+- Iterative refinement prompts for revising specific parts of a draft
+- Story version management with editable saved revisions
+- Professional editorial dashboard with a focused writing workspace
+- Story library for reopening and managing saved drafts
+- Download support for generated stories
 
-- a fixed navigation sidebar for modules and session context
-- a central writing workspace for prompt creation, story editing, plot pacing, and live style comparison
-- a right-side control rail for generation settings, revision prompts, AI suggestions, character mapping, and version history
+## Advanced Frontend Features
 
-The visual system uses a light editorial palette with soft neutrals, deep indigo accents, table-based story management, and document-first typography. The goal is to resemble a modern writing product where clarity, control, and workflow efficiency matter more than visual spectacle.
+- Character relationship graph visualization based on the active story draft
+- Interactive plot timeline editor for pacing and narrative flow review
+- Live style comparison panel for previewing alternate genre, tone, and style combinations
+- AI suggestion panel for revision ideas and narrative improvements
 
-Advanced frontend panels now include:
+## Frontend Dashboard Theme
 
-- character relationship graph visualization derived from the current draft
-- interactive plot timeline controls for pacing adjustments
-- live style comparison previews generated from alternate genre, tone, and writing-style settings
+The interface follows a clean editorial dashboard style inspired by modern writing tools. The layout is organized into three functional zones:
 
-## Stack
+- Left sidebar for navigation, story modules, and session context
+- Central workspace for prompt creation, editing, structure review, and comparison
+- Right control rail for story settings, refinement prompts, suggestions, and version history
+
+The visual design uses a light neutral background, muted panel surfaces, deep indigo accents, readable typography, and table-based content presentation. The result is a professional product-facing UI intended to look credible in demos, reports, and project evaluations.
+
+## Tech Stack
 
 - Backend: FastAPI
-- Frontend: static single-page app served by FastAPI
-- Storage: local JSON file at `data/stories.json`
-- Narrative engine: offline heuristic generator designed to be replaceable with an LLM provider later
+- Frontend: HTML, CSS, and JavaScript served by FastAPI
+- Storage: local JSON persistence in `data/stories.json`
+- Narrative engine: offline deterministic generator designed to be replaced by a real LLM later
+- Testing: Python `unittest`
 
-## Project layout
+## API Highlights
+
+- `POST /api/stories/generate` - generate a new story draft
+- `POST /api/stories/{story_id}/refine` - revise a story with follow-up instructions
+- `POST /api/stories/{story_id}/versions` - save a manual version
+- `POST /api/stories/{story_id}/compare-style` - preview alternate style variants
+- `GET /api/stories` - list saved stories
+- `GET /api/stories/{story_id}` - fetch a single story and its versions
+
+## Project Structure
 
 ```text
 app/
@@ -42,7 +58,8 @@ app/
   domain.py
   schemas.py
   storage.py
-  services/story_engine.py
+  services/
+    story_engine.py
   static/
     index.html
     styles.css
@@ -51,9 +68,11 @@ data/
   stories.json
 tests/
   test_story_engine.py
+requirements.txt
+README.md
 ```
 
-## Run locally
+## Run Locally
 
 1. Create and activate a virtual environment.
 2. Install dependencies:
@@ -62,15 +81,36 @@ tests/
 pip install -r requirements.txt
 ```
 
-3. Start the app:
+3. Start the development server:
 
 ```bash
 uvicorn app.main:app --reload
 ```
 
-4. Open `http://127.0.0.1:8000`
+4. Open the app in your browser:
 
-## Notes
+```text
+http://127.0.0.1:8000
+```
 
-- The current generator is offline and deterministic. It gives the project a working end-to-end narrative pipeline without requiring external APIs.
-- If you want real model-backed generation later, the clean extension point is [`app/services/story_engine.py`](/c:/AI-Based%20Story%20Writer%20with%20Style%20Control/app/services/story_engine.py).
+## Current Implementation Notes
+
+- The current story engine is intentionally offline and deterministic, so the project runs end-to-end without external API keys.
+- The main extension point for integrating a real model provider is `app/services/story_engine.py`.
+- Story data is stored locally in `data/stories.json`.
+
+## Future Enhancements
+
+- Real LLM-backed story generation
+- Character consistency tracking across versions
+- Collaborative editing workflows
+- Multilingual storytelling support
+- Export formats such as PDF and Markdown
+
+## Repository Description
+
+AI-powered story writing platform with controllable genre, tone, and narrative style, featuring a professional editorial dashboard, version history, plot pacing tools, character relationship mapping, and live style comparison.
+
+## Suggested GitHub Topics
+
+`fastapi` `ai-writing` `story-generation` `creative-writing` `nlp` `dashboard` `javascript` `frontend` `python` `editor`
