@@ -1,0 +1,567 @@
+{
+  "stories": [
+    {
+      "id": "7704669c-ab54-4a9a-8245-432d851926ab",
+      "title": "The Finds of Cartographer",
+      "request": {
+        "prompt": "A cartographer finds a map that redraws itself every night.",
+        "genre": "Fantasy",
+        "tone": "Mysterious",
+        "writing_style": "Descriptive",
+        "story_length": 800
+      },
+      "versions": [
+        {
+          "version_number": 1,
+          "note": "Initial draft",
+          "created_at": "2026-03-11T08:45:20.773344+00:00",
+          "sections": [
+            {
+              "id": "introduction",
+              "title": "Introduction",
+              "summary": "A cartographer finds a map that redraws itself every night. The story opens in a kingdom where stone remembers forgotten...",
+              "content": "A cartographer finds a map that redraws itself every night. The story opens in a kingdom where stone remembers forgotten vows, where answers arrive disguised as echoes. Sensory detail lingers on texture, temperature, and sound, giving the opening a clear sense of place and intent.\n\nWhat first appears to be a single discovery quickly reveals the pull of a sleeping archive. The central figure senses that this moment touches the boundary between legend and history, and that nothing ahead will remain simple."
+            },
+            {
+              "id": "conflict",
+              "title": "Conflict Development",
+              "summary": "As the discovery settles into consequence, the path forward runs into an oath-bound guardian. Each revelation seems to deepen the...",
+              "content": "As the discovery settles into consequence, the path forward runs into an oath-bound guardian. Each revelation seems to deepen the shadow around it, forcing the protagonist to weigh curiosity against risk.\n\nClues, setbacks, and uneasy alliances push the narrative outward from the original prompt: a cartographer finds a map that redraws itself every night. Sentences gather slowly before landing on a vivid image, so each turn feels tied to the last rather than randomly imposed."
+            },
+            {
+              "id": "climax",
+              "title": "Climax",
+              "summary": "The climax arrives when retreat is no longer possible. Faced with a prophecy that resists being read and the threat...",
+              "content": "The climax arrives when retreat is no longer possible. Faced with a prophecy that resists being read and the threat hanging over the memory of an entire people, the protagonist has to decide what kind of person the journey has made them.\n\nThe decisive act turns the meaning of a runed relic inside out, delivering a scene that feels earned by the mounting pressure. The choice is immediate, public, and irreversible."
+            },
+            {
+              "id": "resolution",
+              "title": "Resolution",
+              "summary": "After the turning point, the consequences move through the world in quieter waves. Certainty stays partially out of reach, and...",
+              "content": "After the turning point, the consequences move through the world in quieter waves. Certainty stays partially out of reach, and the story pays attention to what the characters now understand differently.\n\nThe victory rewrites what the world believes is possible. The closing image echoes the prompt once more, proving that a cartographer finds a map that redraws itself every night was never only an event, but the beginning of a deeper transformation."
+            }
+          ]
+        }
+      ],
+      "active_version": 1,
+      "created_at": "2026-03-11T08:45:20.773430+00:00",
+      "updated_at": "2026-03-11T08:45:20.773438+00:00"
+    },
+    {
+      "id": "96e606f2-e979-4405-a243-24156df54b0e",
+      "title": "The Secret of the Redraws",
+      "request": {
+        "prompt": "A cartographer finds a map that redraws itself every night.",
+        "genre": "Fantasy",
+        "tone": "Mysterious",
+        "writing_style": "Descriptive",
+        "story_length": 800
+      },
+      "versions": [
+        {
+          "version_number": 1,
+          "note": "Initial draft",
+          "created_at": "2026-03-11T08:45:57.290362+00:00",
+          "sections": [
+            {
+              "id": "introduction",
+              "title": "Introduction",
+              "summary": "A cartographer finds a map that redraws itself every night. The story opens in a kingdom where stone remembers forgotten...",
+              "content": "A cartographer finds a map that redraws itself every night. The story opens in a kingdom where stone remembers forgotten vows, where answers arrive disguised as echoes. Sensory detail lingers on texture, temperature, and sound, giving the opening a clear sense of place and intent.\n\nWhat first appears to be a single discovery quickly reveals the pull of a sleeping archive. The central figure senses that this moment touches the boundary between legend and history, and that nothing ahead will remain simple."
+            },
+            {
+              "id": "conflict",
+              "title": "Conflict Development",
+              "summary": "As the discovery settles into consequence, the path forward runs into an oath-bound guardian. Each revelation seems to deepen the...",
+              "content": "As the discovery settles into consequence, the path forward runs into an oath-bound guardian. Each revelation seems to deepen the shadow around it, forcing the protagonist to weigh curiosity against risk.\n\nClues, setbacks, and uneasy alliances push the narrative outward from the original prompt: a cartographer finds a map that redraws itself every night. Sentences gather slowly before landing on a vivid image, so each turn feels tied to the last rather than randomly imposed."
+            },
+            {
+              "id": "climax",
+              "title": "Climax",
+              "summary": "The climax arrives when retreat is no longer possible. Faced with a prophecy that resists being read and the threat...",
+              "content": "The climax arrives when retreat is no longer possible. Faced with a prophecy that resists being read and the threat hanging over the memory of an entire people, the protagonist has to decide what kind of person the journey has made them.\n\nThe decisive act turns the meaning of a runed relic inside out, delivering a scene that feels earned by the mounting pressure. The choice is immediate, public, and irreversible."
+            },
+            {
+              "id": "resolution",
+              "title": "Resolution",
+              "summary": "After the turning point, the consequences move through the world in quieter waves. Certainty stays partially out of reach, and...",
+              "content": "After the turning point, the consequences move through the world in quieter waves. Certainty stays partially out of reach, and the story pays attention to what the characters now understand differently.\n\nThe victory rewrites what the world believes is possible. The closing image echoes the prompt once more, proving that a cartographer finds a map that redraws itself every night was never only an event, but the beginning of a deeper transformation."
+            }
+          ]
+        }
+      ],
+      "active_version": 1,
+      "created_at": "2026-03-11T08:45:57.290437+00:00",
+      "updated_at": "2026-03-11T08:45:57.290444+00:00"
+    },
+    {
+      "id": "894bea75-c9c0-4515-a973-59f99f9c7a0f",
+      "title": "The Secret of the Map",
+      "request": {
+        "prompt": "A cartographer finds a map that redraws itself every night.",
+        "genre": "Fantasy",
+        "tone": "Mysterious",
+        "writing_style": "Descriptive",
+        "story_length": 800
+      },
+      "versions": [
+        {
+          "version_number": 1,
+          "note": "Initial draft",
+          "created_at": "2026-03-11T08:46:19.519177+00:00",
+          "sections": [
+            {
+              "id": "introduction",
+              "title": "Introduction",
+              "summary": "A cartographer finds a map that redraws itself every night. The story opens in a kingdom where stone remembers forgotten...",
+              "content": "A cartographer finds a map that redraws itself every night. The story opens in a kingdom where stone remembers forgotten vows, where answers arrive disguised as echoes. Sensory detail lingers on texture, temperature, and sound, giving the opening a clear sense of place and intent.\n\nWhat first appears to be a single discovery quickly reveals the pull of a sleeping archive. The central figure senses that this moment touches the boundary between legend and history, and that nothing ahead will remain simple."
+            },
+            {
+              "id": "conflict",
+              "title": "Conflict Development",
+              "summary": "As the discovery settles into consequence, the path forward runs into an oath-bound guardian. Each revelation seems to deepen the...",
+              "content": "As the discovery settles into consequence, the path forward runs into an oath-bound guardian. Each revelation seems to deepen the shadow around it, forcing the protagonist to weigh curiosity against risk.\n\nClues, setbacks, and uneasy alliances push the narrative outward from the original prompt: a cartographer finds a map that redraws itself every night. Sentences gather slowly before landing on a vivid image, so each turn feels tied to the last rather than randomly imposed."
+            },
+            {
+              "id": "climax",
+              "title": "Climax",
+              "summary": "The climax arrives when retreat is no longer possible. Faced with a prophecy that resists being read and the threat...",
+              "content": "The climax arrives when retreat is no longer possible. Faced with a prophecy that resists being read and the threat hanging over the memory of an entire people, the protagonist has to decide what kind of person the journey has made them.\n\nThe decisive act turns the meaning of a runed relic inside out, delivering a scene that feels earned by the mounting pressure. The choice is immediate, public, and irreversible."
+            },
+            {
+              "id": "resolution",
+              "title": "Resolution",
+              "summary": "After the turning point, the consequences move through the world in quieter waves. Certainty stays partially out of reach, and...",
+              "content": "After the turning point, the consequences move through the world in quieter waves. Certainty stays partially out of reach, and the story pays attention to what the characters now understand differently.\n\nThe victory rewrites what the world believes is possible. The closing image echoes the prompt once more, proving that a cartographer finds a map that redraws itself every night was never only an event, but the beginning of a deeper transformation."
+            }
+          ]
+        }
+      ],
+      "active_version": 1,
+      "created_at": "2026-03-11T08:46:19.519297+00:00",
+      "updated_at": "2026-03-11T08:46:19.519305+00:00"
+    },
+    {
+      "id": "cf5b7684-d1e0-4830-8842-ac61420513a4",
+      "title": "The Uncovers",
+      "request": {
+        "prompt": "A detective uncovers a coded diary beneath a courthouse archive.",
+        "genre": "Mystery",
+        "tone": "Suspenseful",
+        "writing_style": "Cinematic",
+        "story_length": 800
+      },
+      "versions": [
+        {
+          "version_number": 1,
+          "note": "Initial draft",
+          "created_at": "2026-03-11T09:21:21.947195+00:00",
+          "sections": [
+            {
+              "id": "introduction",
+              "title": "Introduction",
+              "summary": "A detective uncovers a coded diary beneath a courthouse archive. The story opens in a district that keeps its windows...",
+              "content": "A detective uncovers a coded diary beneath a courthouse archive. The story opens in a district that keeps its windows dark after midnight, where every pause feels like a countdown. The scene is framed through movement, contrast, and visual scale, giving the opening a clear sense of place and intent.\n\nWhat first appears to be a single discovery quickly reveals the pull of a damaged photograph. The central figure senses that this moment touches the reputation of someone already under suspicion, and that nothing ahead will remain simple."
+            },
+            {
+              "id": "conflict",
+              "title": "Conflict Development",
+              "summary": "As the discovery settles into consequence, the path forward runs into a careful liar. Small mistakes carry immediate consequences, forcing...",
+              "content": "As the discovery settles into consequence, the path forward runs into a careful liar. Small mistakes carry immediate consequences, forcing the protagonist to weigh curiosity against risk.\n\nClues, setbacks, and uneasy alliances push the narrative outward from the original prompt: a detective uncovers a coded diary beneath a courthouse archive. Moments cut sharply from stillness to action, so each turn feels tied to the last rather than randomly imposed."
+            },
+            {
+              "id": "climax",
+              "title": "Climax",
+              "summary": "The climax arrives when retreat is no longer possible. Faced with a careful liar and the threat hanging over the...",
+              "content": "The climax arrives when retreat is no longer possible. Faced with a careful liar and the threat hanging over the truth that links the case to old harm, the protagonist has to decide what kind of person the journey has made them.\n\nThe decisive act turns the meaning of an unsigned confession inside out, delivering a scene that feels earned by the mounting pressure. The choice is immediate, public, and irreversible."
+            },
+            {
+              "id": "resolution",
+              "title": "Resolution",
+              "summary": "After the turning point, the consequences move through the world in quieter waves. The aftermath still vibrates with danger, and...",
+              "content": "After the turning point, the consequences move through the world in quieter waves. The aftermath still vibrates with danger, and the story pays attention to what the characters now understand differently.\n\nThe final answer lands, but not every bruise disappears with it. The closing image echoes the prompt once more, proving that a detective uncovers a coded diary beneath a courthouse archive was never only an event, but the beginning of a deeper transformation."
+            }
+          ]
+        },
+        {
+          "version_number": 2,
+          "note": "Manual edit",
+          "created_at": "2026-03-11T09:39:58.937099+00:00",
+          "sections": [
+            {
+              "id": "introduction",
+              "title": "Introduction",
+              "summary": "A detective uncovers a coded diary beneath a courthouse archive. The story opens in a district that keeps its windows...",
+              "content": "A detective uncovers a coded diary beneath a courthouse archive. The story opens in a district that keeps its windows dark after midnight, where every pause feels like a countdown. The scene is framed through movement, contrast, and visual scale, giving the opening a clear sense of place and intent.\n\nWhat first appears to be a single discovery quickly reveals the pull of a damaged photograph. The central figure senses that this moment touches the reputation of someone already under suspicion, and that nothing ahead will remain simple."
+            },
+            {
+              "id": "conflict",
+              "title": "Conflict Development",
+              "summary": "As the discovery settles into consequence, the path forward runs into a careful liar. Small mistakes carry immediate consequences, forcing...",
+              "content": "As the discovery settles into consequence, the path forward runs into a careful liar. Small mistakes carry immediate consequences, forcing the protagonist to weigh curiosity against risk.\n\nClues, setbacks, and uneasy alliances push the narrative outward from the original prompt: a detective uncovers a coded diary beneath a courthouse archive. Moments cut sharply from stillness to action, so each turn feels tied to the last rather than randomly imposed."
+            },
+            {
+              "id": "climax",
+              "title": "Climax",
+              "summary": "The climax arrives when retreat is no longer possible. Faced with a careful liar and the threat hanging over the...",
+              "content": "The climax arrives when retreat is no longer possible. Faced with a careful liar and the threat hanging over the truth that links the case to old harm, the protagonist has to decide what kind of person the journey has made them.\n\nThe decisive act turns the meaning of an unsigned confession inside out, delivering a scene that feels earned by the mounting pressure. The choice is immediate, public, and irreversible."
+            },
+            {
+              "id": "resolution",
+              "title": "Resolution",
+              "summary": "After the turning point, the consequences move through the world in quieter waves. The aftermath still vibrates with danger, and...",
+              "content": "After the turning point, the consequences move through the world in quieter waves. The aftermath still vibrates with danger, and the story pays attention to what the characters now understand differently.\n\nThe final answer lands, but not every bruise disappears with it. The closing image echoes the prompt once more, proving that a detective uncovers a coded diary beneath a courthouse archive was never only an event, but the beginning of a deeper transformation."
+            }
+          ]
+        }
+      ],
+      "active_version": 2,
+      "created_at": "2026-03-11T09:21:21.947238+00:00",
+      "updated_at": "2026-03-11T09:39:58.937109+00:00"
+    },
+    {
+      "id": "e800b772-0359-4143-9abd-b7847fb64a12",
+      "title": "Where Promise Waits",
+      "request": {
+        "prompt": "The Clockmaker\u2019s Promise \u2013 A reclusive clockmaker builds a timepiece that can pause moments, but only when he\u2019s with the woman he secretly loves.",
+        "genre": "Romance",
+        "tone": "Dark",
+        "writing_style": "Poetic",
+        "story_length": 800
+      },
+      "versions": [
+        {
+          "version_number": 1,
+          "note": "Initial draft",
+          "created_at": "2026-03-11T09:41:36.931662+00:00",
+          "sections": [
+            {
+              "id": "introduction",
+              "title": "Introduction",
+              "summary": "The Clockmaker\u2019s Promise \u2013 A reclusive clockmaker builds a timepiece that can pause moments, but only when he\u2019s with the...",
+              "content": "The Clockmaker\u2019s Promise \u2013 A reclusive clockmaker builds a timepiece that can pause moments, but only when he\u2019s with the woman he secretly loves. The story opens in a place where old routines leave just enough room for surprise, where hope exists, but only under strain. Images echo one another and carry emotional subtext, giving the opening a clear sense of place and intent.\n\nWhat first appears to be a single discovery quickly reveals the pull of a keepsake nobody intended to keep. The central figure senses that this moment touches the chance to build something that lasts beyond first intensity, and that nothing ahead will remain simple."
+            },
+            {
+              "id": "conflict",
+              "title": "Conflict Development",
+              "summary": "As the discovery settles into consequence, the path forward runs into the distance created by prior hurt. Every choice demands...",
+              "content": "As the discovery settles into consequence, the path forward runs into the distance created by prior hurt. Every choice demands a visible cost, forcing the protagonist to weigh curiosity against risk.\n\nClues, setbacks, and uneasy alliances push the narrative outward from the original prompt: the Clockmaker\u2019s Promise \u2013 A reclusive clockmaker builds a timepiece that can pause moments, but only when he\u2019s with the woman he secretly loves. The prose favors rhythm and metaphor over blunt exposition, so each turn feels tied to the last rather than randomly imposed."
+            },
+            {
+              "id": "climax",
+              "title": "Climax",
+              "summary": "The climax arrives when retreat is no longer possible. Faced with fear of being known too clearly and the threat...",
+              "content": "The climax arrives when retreat is no longer possible. Faced with fear of being known too clearly and the threat hanging over the chance to build something that lasts beyond first intensity, the protagonist has to decide what kind of person the journey has made them.\n\nThe decisive act turns the meaning of a keepsake nobody intended to keep inside out, delivering a scene that feels earned by the mounting pressure. The choice is immediate, public, and irreversible."
+            },
+            {
+              "id": "resolution",
+              "title": "Resolution",
+              "summary": "After the turning point, the consequences move through the world in quieter waves. Survival is not the same thing as...",
+              "content": "After the turning point, the consequences move through the world in quieter waves. Survival is not the same thing as innocence, and the story pays attention to what the characters now understand differently.\n\nThe ending favors intimacy earned through risk. The closing image echoes the prompt once more, proving that the Clockmaker\u2019s Promise \u2013 A reclusive clockmaker builds a timepiece that can pause moments, but only when he\u2019s with the woman he secretly loves was never only an event, but the beginning of a deeper transformation."
+            }
+          ]
+        },
+        {
+          "version_number": 2,
+          "note": "Manual edit",
+          "created_at": "2026-03-11T09:43:07.750426+00:00",
+          "sections": [
+            {
+              "id": "introduction",
+              "title": "Introduction",
+              "summary": "The Clockmaker\u2019s Promise \u2013 A reclusive clockmaker builds a timepiece that can pause moments, but only when he\u2019s with the...",
+              "content": "The Clockmaker\u2019s Promise \u2013 A reclusive clockmaker builds a timepiece that can pause moments, but only when he\u2019s with the woman he secretly loves. The story opens in a place where old routines leave just enough room for surprise, where hope exists, but only under strain. Images echo one another and carry emotional subtext, giving the opening a clear sense of place and intent.\n\nWhat first appears to be a single discovery quickly reveals the pull of a keepsake nobody intended to keep. The central figure senses that this moment touches the chance to build something that lasts beyond first intensity, and that nothing ahead will remain simple."
+            },
+            {
+              "id": "conflict",
+              "title": "Conflict Development",
+              "summary": "As the discovery settles into consequence, the path forward runs into the distance created by prior hurt. Every choice demands...",
+              "content": "As the discovery settles into consequence, the path forward runs into the distance created by prior hurt. Every choice demands a visible cost, forcing the protagonist to weigh curiosity against risk.\n\nClues, setbacks, and uneasy alliances push the narrative outward from the original prompt: the Clockmaker\u2019s Promise \u2013 A reclusive clockmaker builds a timepiece that can pause moments, but only when he\u2019s with the woman he secretly loves. The prose favors rhythm and metaphor over blunt exposition, so each turn feels tied to the last rather than randomly imposed."
+            },
+            {
+              "id": "climax",
+              "title": "Climax",
+              "summary": "The climax arrives when retreat is no longer possible. Faced with fear of being known too clearly and the threat...",
+              "content": "The climax arrives when retreat is no longer possible. Faced with fear of being known too clearly and the threat hanging over the chance to build something that lasts beyond first intensity, the protagonist has to decide what kind of person the journey has made them.\n\nThe decisive act turns the meaning of a keepsake nobody intended to keep inside out, delivering a scene that feels earned by the mounting pressure. The choice is immediate, public, and irreversible."
+            },
+            {
+              "id": "resolution",
+              "title": "Resolution",
+              "summary": "After the turning point, the consequences move through the world in quieter waves. Survival is not the same thing as...",
+              "content": "After the turning point, the consequences move through the world in quieter waves. Survival is not the same thing as innocence, and the story pays attention to what the characters now understand differently.\n\nThe ending favors intimacy earned through risk. The closing image echoes the prompt once more, proving that the Clockmaker\u2019s Promise \u2013 A reclusive clockmaker builds a timepiece that can pause moments, but only when he\u2019s with the woman he secretly loves was never only an event, but the beginning of a deeper transformation."
+            }
+          ]
+        }
+      ],
+      "active_version": 2,
+      "created_at": "2026-03-11T09:41:36.931931+00:00",
+      "updated_at": "2026-03-11T09:43:07.750433+00:00"
+    },
+    {
+      "id": "d39b60b0-7ed5-4ed1-b2bb-25c907eb751e",
+      "title": "Where Promise Waits",
+      "request": {
+        "prompt": "The Clockmaker\u2019s Promise \u2013 A reclusive clockmaker builds a timepiece that can pause moments, but only when he\u2019s with the woman he secretly loves.",
+        "genre": "Romance",
+        "tone": "Dark",
+        "writing_style": "Poetic",
+        "story_length": 800
+      },
+      "versions": [
+        {
+          "version_number": 1,
+          "note": "Initial draft",
+          "created_at": "2026-03-11T09:43:09.449043+00:00",
+          "sections": [
+            {
+              "id": "introduction",
+              "title": "Introduction",
+              "summary": "The Clockmaker\u2019s Promise \u2013 A reclusive clockmaker builds a timepiece that can pause moments, but only when he\u2019s with the...",
+              "content": "The Clockmaker\u2019s Promise \u2013 A reclusive clockmaker builds a timepiece that can pause moments, but only when he\u2019s with the woman he secretly loves. The story opens in a place where old routines leave just enough room for surprise, where hope exists, but only under strain. Images echo one another and carry emotional subtext, giving the opening a clear sense of place and intent.\n\nWhat first appears to be a single discovery quickly reveals the pull of a keepsake nobody intended to keep. The central figure senses that this moment touches the chance to build something that lasts beyond first intensity, and that nothing ahead will remain simple."
+            },
+            {
+              "id": "conflict",
+              "title": "Conflict Development",
+              "summary": "As the discovery settles into consequence, the path forward runs into the distance created by prior hurt. Every choice demands...",
+              "content": "As the discovery settles into consequence, the path forward runs into the distance created by prior hurt. Every choice demands a visible cost, forcing the protagonist to weigh curiosity against risk.\n\nClues, setbacks, and uneasy alliances push the narrative outward from the original prompt: the Clockmaker\u2019s Promise \u2013 A reclusive clockmaker builds a timepiece that can pause moments, but only when he\u2019s with the woman he secretly loves. The prose favors rhythm and metaphor over blunt exposition, so each turn feels tied to the last rather than randomly imposed."
+            },
+            {
+              "id": "climax",
+              "title": "Climax",
+              "summary": "The climax arrives when retreat is no longer possible. Faced with fear of being known too clearly and the threat...",
+              "content": "The climax arrives when retreat is no longer possible. Faced with fear of being known too clearly and the threat hanging over the chance to build something that lasts beyond first intensity, the protagonist has to decide what kind of person the journey has made them.\n\nThe decisive act turns the meaning of a keepsake nobody intended to keep inside out, delivering a scene that feels earned by the mounting pressure. The choice is immediate, public, and irreversible."
+            },
+            {
+              "id": "resolution",
+              "title": "Resolution",
+              "summary": "After the turning point, the consequences move through the world in quieter waves. Survival is not the same thing as...",
+              "content": "After the turning point, the consequences move through the world in quieter waves. Survival is not the same thing as innocence, and the story pays attention to what the characters now understand differently.\n\nThe ending favors intimacy earned through risk. The closing image echoes the prompt once more, proving that the Clockmaker\u2019s Promise \u2013 A reclusive clockmaker builds a timepiece that can pause moments, but only when he\u2019s with the woman he secretly loves was never only an event, but the beginning of a deeper transformation."
+            }
+          ]
+        }
+      ],
+      "active_version": 1,
+      "created_at": "2026-03-11T09:43:09.449091+00:00",
+      "updated_at": "2026-03-11T09:43:09.449094+00:00"
+    },
+    {
+      "id": "edfac9a5-52e6-43a0-bd26-be25836acfd0",
+      "title": "Across and the Sea",
+      "request": {
+        "prompt": "Letters Across the Sea \u2013 Two strangers exchange letters after a bottle washes ashore, each believing the other lives in a different century.",
+        "genre": "Romance",
+        "tone": "Dark",
+        "writing_style": "Poetic",
+        "story_length": 800
+      },
+      "versions": [
+        {
+          "version_number": 1,
+          "note": "Initial draft",
+          "created_at": "2026-03-11T09:43:25.084681+00:00",
+          "sections": [
+            {
+              "id": "introduction",
+              "title": "Introduction",
+              "summary": "Letters Across the Sea \u2013 Two strangers exchange letters after a bottle washes ashore, each believing the other lives in...",
+              "content": "Letters Across the Sea \u2013 Two strangers exchange letters after a bottle washes ashore, each believing the other lives in a different century. The story opens in a place where old routines leave just enough room for surprise, where hope exists, but only under strain. Images echo one another and carry emotional subtext, giving the opening a clear sense of place and intent.\n\nWhat first appears to be a single discovery quickly reveals the pull of a keepsake nobody intended to keep. The central figure senses that this moment touches whether vulnerability becomes a bridge or a wound, and that nothing ahead will remain simple."
+            },
+            {
+              "id": "conflict",
+              "title": "Conflict Development",
+              "summary": "As the discovery settles into consequence, the path forward runs into fear of being known too clearly. Every choice demands...",
+              "content": "As the discovery settles into consequence, the path forward runs into fear of being known too clearly. Every choice demands a visible cost, forcing the protagonist to weigh curiosity against risk.\n\nClues, setbacks, and uneasy alliances push the narrative outward from the original prompt: letters Across the Sea \u2013 Two strangers exchange letters after a bottle washes ashore, each believing the other lives in a different century. The prose favors rhythm and metaphor over blunt exposition, so each turn feels tied to the last rather than randomly imposed."
+            },
+            {
+              "id": "climax",
+              "title": "Climax",
+              "summary": "The climax arrives when retreat is no longer possible. Faced with the distance created by prior hurt and the threat...",
+              "content": "The climax arrives when retreat is no longer possible. Faced with the distance created by prior hurt and the threat hanging over the courage required to choose honesty over safety, the protagonist has to decide what kind of person the journey has made them.\n\nThe decisive act turns the meaning of a keepsake nobody intended to keep inside out, delivering a scene that feels earned by the mounting pressure. The choice is immediate, public, and irreversible."
+            },
+            {
+              "id": "resolution",
+              "title": "Resolution",
+              "summary": "After the turning point, the consequences move through the world in quieter waves. Survival is not the same thing as...",
+              "content": "After the turning point, the consequences move through the world in quieter waves. Survival is not the same thing as innocence, and the story pays attention to what the characters now understand differently.\n\nThe final exchange makes room for a future both people can inhabit. The closing image echoes the prompt once more, proving that letters Across the Sea \u2013 Two strangers exchange letters after a bottle washes ashore, each believing the other lives in a different century was never only an event, but the beginning of a deeper transformation."
+            }
+          ]
+        },
+        {
+          "version_number": 2,
+          "note": "Manual edit",
+          "created_at": "2026-03-11T09:46:03.305241+00:00",
+          "sections": [
+            {
+              "id": "introduction",
+              "title": "Introduction",
+              "summary": "Letters Across the Sea \u2013 Two strangers exchange letters after a bottle washes ashore, each believing the other lives in...",
+              "content": "Letters Across the Sea \u2013 Two strangers exchange letters after a bottle washes ashore, each believing the other lives in a different century. The story opens in a place where old routines leave just enough room for surprise, where hope exists, but only under strain. Images echo one another and carry emotional subtext, giving the opening a clear sense of place and intent.\n\nWhat first appears to be a single discovery quickly reveals the pull of a keepsake nobody intended to keep. The central figure senses that this moment touches whether vulnerability becomes a bridge or a wound, and that nothing ahead will remain simple."
+            },
+            {
+              "id": "conflict",
+              "title": "Conflict Development",
+              "summary": "As the discovery settles into consequence, the path forward runs into fear of being known too clearly. Every choice demands...",
+              "content": "As the discovery settles into consequence, the path forward runs into fear of being known too clearly. Every choice demands a visible cost, forcing the protagonist to weigh curiosity against risk.\n\nClues, setbacks, and uneasy alliances push the narrative outward from the original prompt: letters Across the Sea \u2013 Two strangers exchange letters after a bottle washes ashore, each believing the other lives in a different century. The prose favors rhythm and metaphor over blunt exposition, so each turn feels tied to the last rather than randomly imposed."
+            },
+            {
+              "id": "climax",
+              "title": "Climax",
+              "summary": "The climax arrives when retreat is no longer possible. Faced with the distance created by prior hurt and the threat...",
+              "content": "The climax arrives when retreat is no longer possible. Faced with the distance created by prior hurt and the threat hanging over the courage required to choose honesty over safety, the protagonist has to decide what kind of person the journey has made them.\n\nThe decisive act turns the meaning of a keepsake nobody intended to keep inside out, delivering a scene that feels earned by the mounting pressure. The choice is immediate, public, and irreversible."
+            },
+            {
+              "id": "resolution",
+              "title": "Resolution",
+              "summary": "After the turning point, the consequences move through the world in quieter waves. Survival is not the same thing as...",
+              "content": "After the turning point, the consequences move through the world in quieter waves. Survival is not the same thing as innocence, and the story pays attention to what the characters now understand differently.\n\nThe final exchange makes room for a future both people can inhabit. The closing image echoes the prompt once more, proving that letters Across the Sea \u2013 Two strangers exchange letters after a bottle washes ashore, each believing the other lives in a different century was never only an event, but the beginning of a deeper transformation."
+            }
+          ]
+        }
+      ],
+      "active_version": 2,
+      "created_at": "2026-03-11T09:43:25.084721+00:00",
+      "updated_at": "2026-03-11T09:46:03.305247+00:00"
+    },
+    {
+      "id": "984e390a-fcdc-490b-ba0f-df8541f71138",
+      "title": "Across and the Sea",
+      "request": {
+        "prompt": "Letters Across the Sea \u2013 Two strangers exchange letters after a bottle washes ashore, each believing the other lives in a different century.",
+        "genre": "Romance",
+        "tone": "Dark",
+        "writing_style": "Poetic",
+        "story_length": 800
+      },
+      "versions": [
+        {
+          "version_number": 1,
+          "note": "Initial draft",
+          "created_at": "2026-03-11T09:46:07.921459+00:00",
+          "sections": [
+            {
+              "id": "introduction",
+              "title": "Introduction",
+              "summary": "Letters Across the Sea \u2013 Two strangers exchange letters after a bottle washes ashore, each believing the other lives in...",
+              "content": "Letters Across the Sea \u2013 Two strangers exchange letters after a bottle washes ashore, each believing the other lives in a different century. The story opens in a place where old routines leave just enough room for surprise, where hope exists, but only under strain. Images echo one another and carry emotional subtext, giving the opening a clear sense of place and intent.\n\nWhat first appears to be a single discovery quickly reveals the pull of a keepsake nobody intended to keep. The central figure senses that this moment touches whether vulnerability becomes a bridge or a wound, and that nothing ahead will remain simple."
+            },
+            {
+              "id": "conflict",
+              "title": "Conflict Development",
+              "summary": "As the discovery settles into consequence, the path forward runs into fear of being known too clearly. Every choice demands...",
+              "content": "As the discovery settles into consequence, the path forward runs into fear of being known too clearly. Every choice demands a visible cost, forcing the protagonist to weigh curiosity against risk.\n\nClues, setbacks, and uneasy alliances push the narrative outward from the original prompt: letters Across the Sea \u2013 Two strangers exchange letters after a bottle washes ashore, each believing the other lives in a different century. The prose favors rhythm and metaphor over blunt exposition, so each turn feels tied to the last rather than randomly imposed."
+            },
+            {
+              "id": "climax",
+              "title": "Climax",
+              "summary": "The climax arrives when retreat is no longer possible. Faced with the distance created by prior hurt and the threat...",
+              "content": "The climax arrives when retreat is no longer possible. Faced with the distance created by prior hurt and the threat hanging over the courage required to choose honesty over safety, the protagonist has to decide what kind of person the journey has made them.\n\nThe decisive act turns the meaning of a keepsake nobody intended to keep inside out, delivering a scene that feels earned by the mounting pressure. The choice is immediate, public, and irreversible."
+            },
+            {
+              "id": "resolution",
+              "title": "Resolution",
+              "summary": "After the turning point, the consequences move through the world in quieter waves. Survival is not the same thing as...",
+              "content": "After the turning point, the consequences move through the world in quieter waves. Survival is not the same thing as innocence, and the story pays attention to what the characters now understand differently.\n\nThe final exchange makes room for a future both people can inhabit. The closing image echoes the prompt once more, proving that letters Across the Sea \u2013 Two strangers exchange letters after a bottle washes ashore, each believing the other lives in a different century was never only an event, but the beginning of a deeper transformation."
+            }
+          ]
+        }
+      ],
+      "active_version": 1,
+      "created_at": "2026-03-11T09:46:07.921498+00:00",
+      "updated_at": "2026-03-11T09:46:07.921502+00:00"
+    },
+    {
+      "id": "ffe8771f-9a32-4446-aef8-8fe25b074066",
+      "title": "Where Across Waits",
+      "request": {
+        "prompt": "Letters Across the Sea \u2013 Two strangers exchange letters after a bottle washes ashore, each believing the other lives in a different century.",
+        "genre": "Horror",
+        "tone": "Dark",
+        "writing_style": "Poetic",
+        "story_length": 800
+      },
+      "versions": [
+        {
+          "version_number": 1,
+          "note": "Initial draft",
+          "created_at": "2026-03-11T09:46:17.857908+00:00",
+          "sections": [
+            {
+              "id": "introduction",
+              "title": "Introduction",
+              "summary": "Letters Across the Sea \u2013 Two strangers exchange letters after a bottle washes ashore, each believing the other lives in...",
+              "content": "Letters Across the Sea \u2013 Two strangers exchange letters after a bottle washes ashore, each believing the other lives in a different century. The story opens in a structure that should have been abandoned long ago, where hope exists, but only under strain. Images echo one another and carry emotional subtext, giving the opening a clear sense of place and intent.\n\nWhat first appears to be a single discovery quickly reveals the pull of an inherited secret. The central figure senses that this moment touches who remains themselves by the end, and that nothing ahead will remain simple."
+            },
+            {
+              "id": "conflict",
+              "title": "Conflict Development",
+              "summary": "As the discovery settles into consequence, the path forward runs into a presence that studies people before it strikes. Every...",
+              "content": "As the discovery settles into consequence, the path forward runs into a presence that studies people before it strikes. Every choice demands a visible cost, forcing the protagonist to weigh curiosity against risk.\n\nClues, setbacks, and uneasy alliances push the narrative outward from the original prompt: letters Across the Sea \u2013 Two strangers exchange letters after a bottle washes ashore, each believing the other lives in a different century. The prose favors rhythm and metaphor over blunt exposition, so each turn feels tied to the last rather than randomly imposed."
+            },
+            {
+              "id": "climax",
+              "title": "Climax",
+              "summary": "The climax arrives when retreat is no longer possible. Faced with a presence that studies people before it strikes and...",
+              "content": "The climax arrives when retreat is no longer possible. Faced with a presence that studies people before it strikes and the threat hanging over how much of the past must be carried forward, the protagonist has to decide what kind of person the journey has made them.\n\nThe decisive act turns the meaning of a marked object inside out, delivering a scene that feels earned by the mounting pressure. The choice is immediate, public, and irreversible."
+            },
+            {
+              "id": "resolution",
+              "title": "Resolution",
+              "summary": "After the turning point, the consequences move through the world in quieter waves. Survival is not the same thing as...",
+              "content": "After the turning point, the consequences move through the world in quieter waves. Survival is not the same thing as innocence, and the story pays attention to what the characters now understand differently.\n\nThe final quiet feels temporary rather than safe. The closing image echoes the prompt once more, proving that letters Across the Sea \u2013 Two strangers exchange letters after a bottle washes ashore, each believing the other lives in a different century was never only an event, but the beginning of a deeper transformation."
+            }
+          ]
+        }
+      ],
+      "active_version": 1,
+      "created_at": "2026-03-11T09:46:17.857952+00:00",
+      "updated_at": "2026-03-11T09:46:17.857956+00:00"
+    },
+    {
+      "id": "c4b595ce-2351-4edf-b1e9-37e715b3698b",
+      "title": "The Across",
+      "request": {
+        "prompt": "Letters Across the Sea \u2013 Two strangers exchange letters after a bottle washes ashore, each believing the other lives in a different century.",
+        "genre": "Horror",
+        "tone": "Dark",
+        "writing_style": "Poetic",
+        "story_length": 1000
+      },
+      "versions": [
+        {
+          "version_number": 1,
+          "note": "Initial draft",
+          "created_at": "2026-03-11T09:46:35.952405+00:00",
+          "sections": [
+            {
+              "id": "introduction",
+              "title": "Introduction",
+              "summary": "Letters Across the Sea \u2013 Two strangers exchange letters after a bottle washes ashore, each believing the other lives in...",
+              "content": "Letters Across the Sea \u2013 Two strangers exchange letters after a bottle washes ashore, each believing the other lives in a different century. The story opens in a structure that should have been abandoned long ago, where hope exists, but only under strain. Images echo one another and carry emotional subtext, giving the opening a clear sense of place and intent.\n\nWhat first appears to be a single discovery quickly reveals the pull of a forbidden recording. The central figure senses that this moment touches whether the truth can be faced without becoming contagious, and that nothing ahead will remain simple.\n\nEven before the plot fully declares itself, the atmosphere suggests the world has been keeping secrets longer than anyone expected."
+            },
+            {
+              "id": "conflict",
+              "title": "Conflict Development",
+              "summary": "As the discovery settles into consequence, the path forward runs into a presence that studies people before it strikes. Every...",
+              "content": "As the discovery settles into consequence, the path forward runs into a presence that studies people before it strikes. Every choice demands a visible cost, forcing the protagonist to weigh curiosity against risk.\n\nClues, setbacks, and uneasy alliances push the narrative outward from the original prompt: letters Across the Sea \u2013 Two strangers exchange letters after a bottle washes ashore, each believing the other lives in a different century. The prose favors rhythm and metaphor over blunt exposition, so each turn feels tied to the last rather than randomly imposed.\n\nSecondary characters add pressure by treating a forbidden recording as leverage, while the environment itself seems aligned with an entity attached to memory itself."
+            },
+            {
+              "id": "climax",
+              "title": "Climax",
+              "summary": "The climax arrives when retreat is no longer possible. Faced with an entity attached to memory itself and the threat...",
+              "content": "The climax arrives when retreat is no longer possible. Faced with an entity attached to memory itself and the threat hanging over how much of the past must be carried forward, the protagonist has to decide what kind of person the journey has made them.\n\nThe decisive act turns the meaning of a forbidden recording inside out, delivering a scene that feels earned by the mounting pressure. The choice is immediate, public, and irreversible.\n\nThe scene plays with maximum urgency, pairing images echo one another and carry emotional subtext against the knowledge that failure would reshape how much of the past must be carried forward for the worse."
+            },
+            {
+              "id": "resolution",
+              "title": "Resolution",
+              "summary": "After the turning point, the consequences move through the world in quieter waves. Survival is not the same thing as...",
+              "content": "After the turning point, the consequences move through the world in quieter waves. Survival is not the same thing as innocence, and the story pays attention to what the characters now understand differently.\n\nSurvival comes with a visible cost. The closing image echoes the prompt once more, proving that letters Across the Sea \u2013 Two strangers exchange letters after a bottle washes ashore, each believing the other lives in a different century was never only an event, but the beginning of a deeper transformation.\n\nThe final note lingers on survival is not the same thing as innocence, leaving the audience with a sense that the cost of the journey has meaning rather than spectacle."
+            }
+          ]
+        }
+      ],
+      "active_version": 1,
+      "created_at": "2026-03-11T09:46:35.952442+00:00",
+      "updated_at": "2026-03-11T09:46:35.952446+00:00"
+    }
+  ]
+}

@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Story Foundry</title>
+  <link rel="stylesheet" href="/static/styles.css">
+  <script src="/static/app.js" defer></script>
+</head>
+<body>
+  <div class="page-shell">
+    <aside class="app-sidebar">
+      <div class="brand-block">
+        <p class="brand-kicker">AI Story Writing Platform</p>
+        <h1>Story Foundry</h1>
+        <p class="brand-copy">A professional writing studio for structured narrative drafting, revision, and style control.</p>
+      </div>
+
+      <button id="newStoryShortcut" class="sidebar-primary" type="button">New Story</button>
+
+      <nav class="sidebar-nav" aria-label="Primary">
+        <button class="nav-link active" data-target="dashboardTop" type="button">Dashboard</button>
+        <button class="nav-link" data-target="newStorySection" type="button">New Story</button>
+        <button class="nav-link" data-target="librarySection" type="button">Story Library</button>
+        <button class="nav-link" data-target="comparisonSection" type="button">Templates</button>
+        <button class="nav-link" data-target="suggestionSection" type="button">AI Suggestions</button>
+        <button class="nav-link" data-target="graphSection" type="button">Settings</button>
+      </nav>
+
+      <section class="sidebar-card">
+        <p class="sidebar-label">Workspace Mode</p>
+        <h2>Editorial Dashboard</h2>
+        <p>Designed to feel like a real writing product rather than a prompt toy: quiet, readable, and operationally clear.</p>
+      </section>
+
+      <section class="sidebar-card" id="navStorySummary">
+        <p class="sidebar-label">Current Session</p>
+        <h2>No active draft</h2>
+        <p>Generate a story to populate the writing workspace, structure view, and comparison tools.</p>
+      </section>
+    </aside>
+
+    <div class="content-shell">
+      <header class="topbar" id="dashboardTop">
+        <div>
+          <p class="eyebrow">Professional Frontend Dashboard</p>
+          <h2>AI-Based Story Writer with Style Control</h2>
+          <p class="topbar-copy">
+            The interface is organized as a creative operations dashboard: story briefing, editorial drafting, structure analysis,
+            style comparison, and library management in one coordinated workspace.
+          </p>
+        </div>
+        <div class="status-cluster">
+          <div class="status-pill">
+            <span class="status-dot"></span>
+            <span id="statusMessage">Loading workspace...</span>
+          </div>
+          <p class="status-note">Professional editorial theme with version-aware drafting and live analysis panels.</p>
+        </div>
+      </header>
+
+      <section class="metrics-strip">
+        <article class="metric-card">
+          <p class="metric-label">Active Version</p>
+          <strong id="metricVersion">--</strong>
+          <span>Current draft focus</span>
+        </article>
+        <article class="metric-card">
+          <p class="metric-label">Story Words</p>
+          <strong id="metricWords">0</strong>
+          <span>Readable editorial estimate</span>
+        </article>
+        <article class="metric-card">
+          <p class="metric-label">Character Map</p>
+          <strong id="metricCharacters">0</strong>
+          <span>Tracked narrative entities</span>
+        </article>
+        <article class="metric-card">
+          <p class="metric-label">Library Items</p>
+          <strong id="metricStories">0</strong>
+          <span>Stored stories</span>
+        </article>
+      </section>
+
+      <div class="workspace-grid">
+        <main class="main-column">
+          <section class="surface brief-surface" id="newStorySection">
+            <div class="surface-header">
+              <div>
+                <p class="eyebrow">Story Briefing</p>
+                <h3>Prompt Workspace</h3>
+              </div>
+              <span class="surface-tag">Brief</span>
+            </div>
+            <form id="promptForm" class="prompt-form">
+              <label class="field">
+                <span>Story Prompt</span>
+                <textarea id="storyPrompt" rows="5" placeholder="A detective discovers that the missing witness has been leaving clues in old radio broadcasts." required></textarea>
+              </label>
+            </form>
+          </section>
+
+          <section class="surface editor-surface" id="workspaceSection">
+            <div class="surface-header editor-header">
+              <div>
+                <p class="eyebrow">Story Workspace</p>
+                <input id="storyTitle" class="title-input" type="text" value="Untitled Story" aria-label="Story title">
+                <p id="storyMeta" class="meta-line">No story selected yet.</p>
+              </div>
+              <div class="editor-actions">
+                <button id="downloadButton" class="ghost-button" type="button">Export</button>
+                <button id="saveButton" class="secondary-button" type="button">Save Version</button>
+              </div>
+            </div>
+
+            <label class="field inline-field">
+              <span>Version Note</span>
+              <input id="saveNote" type="text" maxlength="200" value="Manual edit">
+            </label>
+
+            <div id="emptyWorkspace" class="empty-state">
+              <h3>No draft loaded</h3>
+              <p>Create a story brief to open the editorial workspace, version history, character graph, and comparison panels.</p>
+            </div>
+
+            <div id="sectionsContainer" class="editor-sections"></div>
+          </section>
+
+          <section class="surface timeline-surface" id="timelineSection">
+            <div class="surface-header">
+              <div>
+                <p class="eyebrow">Story Structure Visualization</p>
+                <h3>Interactive Plot Timeline Editor</h3>
+              </div>
+              <span class="surface-tag">Pacing</span>
+            </div>
+
+            <div class="timeline-grid">
+              <div>
+                <h4 class="subheading">Current Narrative Flow</h4>
+                <div id="structureBarsContainer" class="structure-bars"></div>
+              </div>
+              <div>
+                <h4 class="subheading">Target Pacing Controls</h4>
+                <div id="timelineControlsContainer" class="timeline-controls"></div>
+                <p id="timelineSummary" class="helper-copy">Use the sliders to rebalance narrative emphasis across the story.</p>
+                <button id="applyTimelineButton" class="secondary-button" type="button">Use Pacing in Revision Brief</button>
+              </div>
+            </div>
+          </section>
+
+          <section class="surface comparison-surface" id="comparisonSection">
+            <div class="surface-header">
+              <div>
+                <p class="eyebrow">Live Style Comparison</p>
+                <h3>Version-to-Version Style Study</h3>
+              </div>
+              <span class="surface-tag">Compare</span>
+            </div>
+
+            <div class="comparison-toolbar">
+              <label class="field compact-field">
+                <span>Genre</span>
+                <select id="compareGenreSelect"></select>
+              </label>
+              <label class="field compact-field">
+                <span>Tone</span>
+                <select id="compareToneSelect"></select>
+              </label>
+              <label class="field compact-field">
+                <span>Writing Style</span>
+                <select id="compareStyleSelect"></select>
+              </label>
+              <button id="compareButton" class="primary-button" type="button">Generate Comparison</button>
+            </div>
+
+            <div class="comparison-grid">
+              <article class="comparison-column">
+                <div class="comparison-head">
+                  <p class="comparison-label">Current Draft</p>
+                  <h4 id="comparisonCurrentTitle">No story selected</h4>
+                  <p id="comparisonCurrentMeta" class="comparison-meta">Open a story to compare stylistic versions.</p>
+                </div>
+                <div id="comparisonCurrentPane" class="comparison-pane comparison-placeholder">
+                  The active story will appear here for side-by-side evaluation.
+                </div>
+              </article>
+
+              <article class="comparison-column">
+                <div class="comparison-head">
+                  <p class="comparison-label">Alternative Style</p>
+                  <h4 id="comparisonPreviewTitle">Awaiting preview</h4>
+                  <p id="comparisonPreviewMeta" class="comparison-meta">Generate an alternate style preview from the same prompt.</p>
+                </div>
+                <div id="comparisonPreviewPane" class="comparison-pane comparison-placeholder">
+                  The comparison preview appears here without altering the saved story.
+                </div>
+              </article>
+            </div>
+
+            <div id="comparisonInsights" class="comparison-insights"></div>
+          </section>
+
+          <section class="surface library-surface" id="librarySection">
+            <div class="surface-header">
+              <div>
+                <p class="eyebrow">Story Library</p>
+                <h3>Saved Stories Dashboard</h3>
+              </div>
+              <span class="surface-tag">Library</span>
+            </div>
+
+            <div class="library-table-wrap">
+              <table class="library-table">
+                <thead>
+                  <tr>
+                    <th>Title</th>
+                    <th>Genre</th>
+                    <th>Style</th>
+                    <th>Last Edited</th>
+                    <th>Versions</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody id="libraryTableBody"></tbody>
+              </table>
+            </div>
+          </section>
+        </main>
+
+        <aside class="control-column">
+          <section class="surface controls-surface">
+            <div class="surface-header">
+              <div>
+                <p class="eyebrow">Style Controls</p>
+                <h3>Generation Parameters</h3>
+              </div>
+              <span class="surface-tag">Control</span>
+            </div>
+
+            <div class="control-stack">
+              <label class="field">
+                <span>Genre</span>
+                <select id="genreSelect"></select>
+              </label>
+              <label class="field">
+                <span>Tone</span>
+                <select id="toneSelect"></select>
+              </label>
+              <label class="field">
+                <span>Writing Style</span>
+                <select id="styleSelect"></select>
+              </label>
+              <label class="field">
+                <span>Story Length</span>
+                <input id="lengthInput" type="number" min="300" max="1800" step="100" value="800">
+              </label>
+              <div class="pov-note">
+                <span class="note-badge">POV</span>
+                <p>Third-person editorial workflow. The current backend keeps POV implicit to preserve narrative coherence.</p>
+              </div>
+              <button id="generateButton" class="primary-button" type="submit" form="promptForm">Generate Story</button>
+            </div>
+          </section>
+
+          <section class="surface revision-surface">
+            <div class="surface-header">
+              <div>
+                <p class="eyebrow">Targeted Refinement</p>
+                <h3>Revision Brief</h3>
+              </div>
+              <span class="surface-tag">Revise</span>
+            </div>
+
+            <label class="field">
+              <span>Instruction</span>
+              <textarea id="refineInstruction" rows="5" placeholder="Make the ending more dramatic, add a stronger secondary character, and tighten the opening."></textarea>
+            </label>
+            <button id="refineButton" class="primary-button" type="button">Refine Current Version</button>
+          </section>
+
+          <section class="surface suggestions-surface" id="suggestionSection">
+            <div class="surface-header">
+              <div>
+                <p class="eyebrow">AI Suggestions</p>
+                <h3>Editorial Guidance</h3>
+              </div>
+              <span class="surface-tag">Assist</span>
+            </div>
+            <div id="suggestionsContainer" class="suggestions-list"></div>
+          </section>
+
+          <section class="surface graph-surface" id="graphSection">
+            <div class="surface-header">
+              <div>
+                <p class="eyebrow">Character Relationship Graph</p>
+                <h3>Interaction Map</h3>
+              </div>
+              <span class="surface-tag">Graph</span>
+            </div>
+            <p id="characterGraphSummary" class="helper-copy">Character relationships will appear here once a story is loaded.</p>
+            <div id="characterGraph" class="graph-canvas"></div>
+            <div id="characterDetail" class="character-detail"></div>
+          </section>
+
+          <section class="surface versions-surface">
+            <div class="surface-header">
+              <div>
+                <p class="eyebrow">Version History</p>
+                <h3>Draft Timeline</h3>
+              </div>
+              <span class="surface-tag">History</span>
+            </div>
+            <div id="versionsContainer" class="versions-list"></div>
+          </section>
+        </aside>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
