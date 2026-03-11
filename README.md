@@ -68,6 +68,10 @@ data/
   stories.json
 tests/
   test_story_engine.py
+docs/
+  PROJECT_SUMMARY.md
+  screenshots/
+    README.md
 requirements.txt
 README.md
 ```
@@ -93,6 +97,35 @@ uvicorn app.main:app --reload
 http://127.0.0.1:8000
 ```
 
+## Demo Flow
+
+Use this sequence when presenting the project in a viva, demo, or screen recording:
+
+1. Open the dashboard and start a new story from the prompt panel.
+2. Select genre, tone, writing style, and story length from the control rail.
+3. Generate a structured story draft and review the introduction, conflict, climax, and resolution.
+4. Refine a section with a follow-up prompt and compare the updated version history.
+5. Show the plot timeline, character relationship graph, and live style comparison panel.
+6. Save the story to the library and reopen it from the dashboard.
+
+## Suggested Screenshots For GitHub
+
+If you want to make the repository look stronger on GitHub, capture these screens and place them in `docs/screenshots/`:
+
+- Dashboard overview with sidebar, editor workspace, and style control rail
+- Story generation form with prompt and narrative settings filled in
+- Generated story draft showing structured sections
+- Character relationship graph panel
+- Plot timeline editor and pacing controls
+- Side-by-side live style comparison panel
+- Story library view with saved drafts
+
+Suggested GIF ideas:
+
+- Prompt to story generation flow
+- Refinement prompt creating a new version
+- Style comparison switching between two narrative modes
+
 ## Current Implementation Notes
 
 - The current story engine is intentionally offline and deterministic, so the project runs end-to-end without external API keys.
@@ -114,3 +147,7 @@ AI-powered story writing platform with controllable genre, tone, and narrative s
 ## Suggested GitHub Topics
 
 `fastapi` `ai-writing` `story-generation` `creative-writing` `nlp` `dashboard` `javascript` `frontend` `python` `editor`
+
+## Report Resources
+
+For a project-report-ready summary, see [docs/PROJECT_SUMMARY.md](docs/PROJECT_SUMMARY.md).
