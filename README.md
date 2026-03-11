@@ -97,6 +97,32 @@ uvicorn app.main:app --reload
 http://127.0.0.1:8000
 ```
 
+## Deploy On Vercel
+
+This project is prepared for Vercel using a root `index.py` FastAPI entrypoint and `public/static/` assets.
+
+1. Install the Vercel CLI if needed:
+
+```bash
+npm install -g vercel
+```
+
+2. Log in and deploy:
+
+```bash
+vercel
+```
+
+3. Promote the deployment to production when ready:
+
+```bash
+vercel --prod
+```
+
+### Important Vercel Note
+
+On Vercel, the app automatically falls back to in-memory story storage because serverless filesystem writes are not persistent. That means generated stories can reset between cold starts or deployments. For durable production storage, replace the local JSON repository with a managed database such as PostgreSQL, MongoDB, or Vercel KV.
+
 ## Demo Flow
 
 Use this sequence when presenting the project in a viva, demo, or screen recording:

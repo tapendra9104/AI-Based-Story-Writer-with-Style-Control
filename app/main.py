@@ -20,11 +20,14 @@ from app.schemas import (
     StoryVersionResponse,
 )
 from app.services.story_engine import GENRE_OPTIONS, STYLE_OPTIONS, TONE_OPTIONS, StoryEngine
-from app.storage import StoryRepository
+from app.storage import build_repository
 
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-STATIC_DIR = BASE_DIR / "app" / "static"
+PUBLIC_DIR = BASE_DIR / "public"
+LEGACY_STATIC_DIR = BASE_DIR / "app" / "static"
+STATIC_DIR = PUBLIC_DIR / "static" if (PUBLIC_DIR / "static").exists() else LEGACY_STATIC_DIR
+INDEX_FILE = PUBLIC_DIR / "index.html" if (PUBLIC_DIR / "index.html").exists() else LEGACY_STATIC_DIR / "index.html"
 DATA_FILE = BASE_DIR / "data" / "stories.json"
 
 app = FastAPI(
@@ -34,7 +37,7 @@ app = FastAPI(
 )
 app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
 
-repository = StoryRepository(DATA_FILE)
+repository = build_repository(DATA_FILE)
 engine = StoryEngine()
 
 
@@ -153,14 +156,14 @@ def compare_story_style(story_id: str, payload: StyleComparisonRequestPayload) -
 
 @app.get("/")
 def index() -> FileResponse:
-    return FileResponse(STATIC_DIR / "index.html")
+    return FileResponse(INDEX_FILE)
 
 
 @app.get("/{full_path:path}")
 def spa_fallback(full_path: str) -> FileResponse:
     if full_path.startswith("api/"):
         raise HTTPException(status_code=404, detail="Route not found")
-    return FileResponse(STATIC_DIR / "index.html")
+    return FileResponse(INDEX_FILE)
 
 
 if __name__ == "__main__":
